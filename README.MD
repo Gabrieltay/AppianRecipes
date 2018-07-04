@@ -1,7 +1,7 @@
 # APPIAN Receipes
 
 ## Switch Case
-```sail;
+```Sail
 with(
     local!result:fn!choose(
     wherecontains(
@@ -24,4 +24,22 @@ with(
   ),
   local!result
 )
+```
+
+## List Casting
+```Sail
+with(
+    cast('type!{http://www.appian.com/ae/types/2009}Integer?list',
+    {
+        3.2, 1.0, 2.2
+    }
+    )
+)
+```
+### Output
+```
+List of Number (Integer): 3 items
+    3
+    1
+    2
 ```

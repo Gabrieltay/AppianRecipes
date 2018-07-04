@@ -1,5 +1,6 @@
 # APPIAN Receipes
 
+## Switch Case
 ```sail;
 with(
     local!result:fn!choose(

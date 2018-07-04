@@ -1,5 +1,5 @@
 # APPIAN Receipes
- 
+
 ```sail;
 with(
     local!result:fn!choose(

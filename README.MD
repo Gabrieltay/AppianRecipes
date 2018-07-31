@@ -26,6 +26,8 @@ with(
 )
 ```
 
+---
+
 ## List Casting
 ```Sail
 with(
@@ -43,6 +45,8 @@ List of Number (Integer): 3 items
     1
     2
 ```
+
+---
 
 ## Null Check for Fields within nested dictionary
 ```Sail

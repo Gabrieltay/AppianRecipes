@@ -52,14 +52,14 @@ load(
     {a1: 12}
   },
   local!bb: {
-    {a1: null},
-    {a1: 22}
+    {b1: null},
+    {b1: 22}
   },
   any(
     fn!isnull,
     {
       local!aa.a1,
-      local!bb.a1
+      local!bb.b1
     }
   )
 )

@@ -43,3 +43,28 @@ List of Number (Integer): 3 items
     1
     2
 ```
+
+## Null Check for Fields within nested dictionary
+```Sail
+load(
+  local!aa: {
+    {a1: 11},
+    {a1: 12}
+  },
+  local!bb: {
+    {a1: null},
+    {a1: 22}
+  },
+  any(
+    fn!isnull,
+    {
+      local!aa.a1,
+      local!bb.a1
+    }
+  )
+)
+```
+##### Output
+```
+true
+```

@@ -36,7 +36,7 @@ with(
     )
 )
 ```
-##### Output
+##### Output:
 ```
 List of Number (Integer): 3 items
     3
@@ -64,7 +64,7 @@ load(
   )
 )
 ```
-##### Output
+##### Output:
 ```
 true
 ```
